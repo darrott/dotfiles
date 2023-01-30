@@ -106,6 +106,8 @@ return packer.startup(function(use)
 
   use("prichrd/netrw.nvim")
 
+  use("stevearc/oil.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end

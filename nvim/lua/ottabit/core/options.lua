@@ -39,3 +39,14 @@ opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 opt.iskeyword:append("-") -- consider string-string as whole word
+
+-- opt.textwidth = 0
+-- opt.wrapmargin = 0
+-- opt.wrap = true
+--
+-- vim.g.netrw_preview = 1
+-- vim.g.netrw_liststyle = 3
+-- vim.g.netrw_winsize = 30
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

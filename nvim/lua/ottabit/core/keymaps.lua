@@ -39,7 +39,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 -- netrw
-keymap.set("n", "<leader>e", ":vim.cmd.Ex<CR>") -- toggle file explorer
+-- keymap.set("n", "<leader>e", ":vim.cmd.Ex<CR>") -- toggle file explorer
 
 -- telescope
 -- keymap.set("n", "<leader>sf", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
@@ -56,3 +56,6 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+-- open oil.nvim search in float
+keymap.set("n", "<leader>e", ":Oil --float<CR>")
