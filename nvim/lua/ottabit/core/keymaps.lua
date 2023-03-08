@@ -58,4 +58,4 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
 -- open oil.nvim search in float
-keymap.set("n", "<leader>e", ":Oil --float<CR>")
+keymap.set("n", "sf", ":Oil --float<CR>")

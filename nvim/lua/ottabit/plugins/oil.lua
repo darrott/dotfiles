@@ -6,9 +6,8 @@ end
 oil.setup({
   columns = {
     "icon",
-    "permissions",
-    "size",
     "mtime",
+    "size",
   },
   buf_options = {
     buflisted = false,
@@ -28,7 +27,6 @@ oil.setup({
   keymaps = {
     ["<C-p>"] = "actions.preview",
     ["<C-l>"] = "actions.refresh",
-    ["t"] = ":tabnew require('oil').select()<CR>",
     ["<C-n>"] = "actions.create",
   },
 })
